@@ -12,7 +12,7 @@ function escolherNumber(){
 }
 function mensagemInicial(){
     exibirTexto("h1","Jogo do número secreto");
-    exibirTexto("p",`Escolha um número de 0 a ${escolherNumero}`);
+    exibirTexto("p",`Escolha um número de 1 a ${escolherNumero}`);
 }
 
 function numeroAleatorio(){
